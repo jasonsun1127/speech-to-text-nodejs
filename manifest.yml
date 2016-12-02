@@ -4,12 +4,12 @@ declared-services:
     label: speech_to_text
     plan: standard
 applications:
-- name: speech-to-text-nodejs-sun
+- name: speech-to-text-nodejs-jason
   path: .
   command: npm start
   memory: 512M
   services:
-  - speech-to-text-service-standard
+  - Speech to Text-zj
   env:
     NODE_ENV: production
     SECURE_EXPRESS: 1
